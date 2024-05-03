@@ -1,0 +1,251 @@
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  background-color: #007bff;
+}
+.right{
+  background-color: #ff7df2;
+}
+.he{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  color:#007bff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.videoTag {
+  width: 70%;
+  height: 100vh;
+  background-color:#191919 ;
+  position: fixed;
+  /* Set to 20% of the viewport height */
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding: 2%;
+  margin-left: 1100px;
+  font-family: Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container ul li {
+  margin-bottom: 10px;
+}
+
+.container strong {
+  font-weight: bold;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.f{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.b{
+  display: flex;
+  flex-direction: row;
+}
+.overlay {
+
+  color: white; /* Text color */
+  position: absolute;
+  padding: 20px;
+  top: 20px; /* Adjust top position */
+  left: 20px; /* Adjust left position */
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* 3D effect shadow */
+  backdrop-filter: blur(10px); /* Glossy look */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.overlay::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+.overlay::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners of the thumb */
+}
+
+.overlay::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.7); /* Color of the scrollbar thumb on hover */
+}
+
+.overlay::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.3); /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners of the track */
+}
+
+.overlay::-webkit-scrollbar-corner {
+  background: transparent; /* Hide the scrollbar corner */
+  border-radius: 10px; /* Match the curves of the div */
+}
+
+
+
+.avatar-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.avatar-option:hover{
+  box-shadow: #454546 3px 2px 3px 3px;
+}
+
+.avatar-option{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #5d5e5f;
+  font-weight: 500;
+  box-shadow: #d5dadc 3px 3px 3px;
+  padding: 0.5%;
+  border-radius: 20px;
+  color:#007bff;
+}
+
+.avatar-image {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image maintains its aspect ratio while covering the entire box */
+  border-radius: 5px; /* Set border-radius for a square shape */
+  margin-bottom: 5%;
+}
+
+/* App.css */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  background-size: cover;
+  background-position: center;
+}
+
+.landing-page-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.landing-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.landing-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.landing-page button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing-page button:hover {
+  background-color: #0056b3;
+}
+
+.camera-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.camera-feed {
+  position: absolute;
+  top: 5px;
+ 
+  width: 200px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  /* background-color: white; */
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+.camera-preview {
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.videoPreview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
