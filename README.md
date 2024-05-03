@@ -12,13 +12,21 @@ HR recruitment processes are often labor-intensive and time-consuming. This proj
 ## Table of Contents
 1. Motivation
 2. Technologies Used
-2. Installation
-3. Screenshot
-4. Credit
+3. Installation
+4. Screenshot
+5. Credit
 
 ## Motivation
 
 Traditional recruitment methods can be expensive and inaccessible, particularly for students and those on a budget. This project aims to democratize access to interview practice and streamline the hiring process for companies.
+
+## Technologies Used
+1. HTML/CSS/Javascript
+2. Python
+3. OpenAI API
+4. MySQL
+5. Text-To-Speech API
+6. Speech-To-Text API
 
 
 ## Installation
